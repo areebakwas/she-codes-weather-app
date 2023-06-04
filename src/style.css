@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto, arial, sans-serif;
+}
+
 .weather {
     background: #fff;
     border-radius: 16px;
@@ -5,5 +9,34 @@
     box-shadow: 0 30px 50px rgba(65, 50, 100, .08);
     padding: 40px;
     color: #878787;
+    max-width: 650px;
+    margin: 30px auto;
 }
 
+.chicago {
+    font-size: 38px;
+     line-height: 22px;
+     color: #878787;
+     font-weight: bold;
+     line-height: 28.8px;
+     
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    color: #9aa0a6;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 9px;
+        padding-top: 6px;
+        margin: 0;
+        padding: 0;
+    
+}
