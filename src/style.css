@@ -2,6 +2,24 @@ body {
     font-family: Roboto, arial, sans-serif;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    color: #9aa0a6;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 9px;
+    padding-top: 6px;
+    margin: 0;
+    padding: 0;
+
+}
+
 .weather {
     background: #fff;
     border-radius: 16px;
@@ -13,30 +31,40 @@ body {
     margin: 30px auto;
 }
 
+.weather-wrapper {
+    max-width: 650px;
+    margin: 30px auto;
+}
+
 .chicago {
-    font-size: 38px;
+    font-size: 28px;
      line-height: 22px;
      color: #878787;
-     font-weight: bold;
+     font-weight: 400;
      line-height: 28.8px;
      
 
 }
 
-ul {
-    padding: 0;
-    margin: 0;
+.overview {
+    margin-bottom: 20px;
 }
 
-li {
-    list-style: none;
-    color: #9aa0a6;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 16px;
-        padding-left: 9px;
-        padding-top: 6px;
-        margin: 0;
-        padding: 0;
-    
+.weather-temperature img {
+    margin-right: 5px;
+    height: 60px;
+    margin-top: unset;
+    vertical-align: top;
+    width: 60px;
+}
+
+.weather-temperature strong {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.weather-temperature .units {
+    position: relative;
+    font-size: 16px;
 }

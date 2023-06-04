@@ -16,7 +16,9 @@
 </head>
 <body>
     <div class="container">
+        <div class="weather-wrapper">
         <div class="weather">
+            <div class="overview">
             <form>
                 <input type="search" placeholder="Enter a city...">
                 <input type="submit" class="btn btn btn-primary" value="Search">
@@ -26,10 +28,13 @@
         <li>Friday 05:00</li>
         <li>Clear</li>
     </ul>
+    </div>
 <div class="row">
 <div class="col-6">
+    <div class="d-flex weather-temperature">
 <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="cloud">
-12°C | °F
+<strong>12</strong> <span class="units">°C | <a href="#" target="_blank">°F</a></span> 
+</div>
 </div>
 <div class="col-6">
 <ul>
@@ -39,11 +44,11 @@
 </ul>
 </div>
 </div>
+</div>
 <small>
     <a href="https://github.com/areebakwas/she-codes-weather-app" target="_blank">Open Source Code</a> by Areeba A
 </small>
 </div>
-
 </div>
     <script src="src/app.js"></script>
 </body>
