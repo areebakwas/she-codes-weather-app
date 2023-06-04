@@ -1,3 +1,9 @@
-h1 {
-    color: yellowgreen;
+.weather {
+    background: #fff;
+    border-radius: 16px;
+    font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, .08);
+    padding: 40px;
+    color: #878787;
 }
+
