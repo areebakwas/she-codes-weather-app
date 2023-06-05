@@ -17,8 +17,12 @@ li {
     padding-top: 6px;
     margin: 0;
     padding: 0;
-    text-transform: capitalize;
+    
 
+}
+
+li::first-letter {
+    text-transform: capitalize;
 }
 
 .weather {
