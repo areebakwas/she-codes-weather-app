@@ -20,9 +20,15 @@
         <div class="weather-wrapper">
         <div class="weather">
             <div class="overview">
-            <form>
-                <input type="search" placeholder="Enter a city...">
-                <input type="submit" class="btn btn btn-primary" value="Search">
+            <form id="search-form" class="mb-3">
+                <div class="row">
+                    <div class="col-9">
+                <input type="search" placeholder="Enter a city..." class="form-control" id="city-input" autocomplete="off">
+                </div>
+                <div class="col-3">
+                <input type="submit" class="btn btn btn-primary w-100" value="Search">
+                </div>
+                </div>
             </form>
     <h1 class="chicago" id="city"></h1>
     <ul>
